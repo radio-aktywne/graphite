@@ -1,0 +1,19 @@
+services:
+  datatunes:
+    build:
+      context: ./
+      network: host
+    environment:
+      - "DATATUNES__SERVER__HOST=${DATATUNES__SERVER__HOST:-0.0.0.0}"
+      - "DATATUNES__SERVER__PORTS__SQL=${DATATUNES__SERVER__PORTS__SQL:-41000}"
+      - "DATATUNES__SERVER__PORTS__HTTP=${DATATUNES__SERVER__PORTS__HTTP:-41001}"
+      - "DATATUNES__SERVER__PORTS__RPC=${DATATUNES__SERVER__PORTS__RPC:-41002}"
+      - "DATATUNES__CREDENTIALS__ROOT__PASSWORD=${DATATUNES__CREDENTIALS__ROOT__PASSWORD:-password}"
+      - "DATATUNES__CREDENTIALS__USER__PASSWORD=${DATATUNES__CREDENTIALS__USER__PASSWORD:-password}"
+    network_mode: host
+    privileged: true
+    volumes:
+      - data:/database/data/
+
+volumes:
+  data: {}
