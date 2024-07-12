@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.4.0
+_src_path: gh:radio-aktywne/template-database-cockroach
+accountname: radio-aktywne
+databasename: datatunes
+description: Emission playlists database 💽
+docs: true
+docsurl: https://radio-aktywne.github.io/database-datatunes
+envprefix: DATATUNES
+httpport: 41001
+imagename: databases/datatunes
+registry: true
+releases: true
+reponame: database-datatunes
+repourl: https://github.com/radio-aktywne/database-datatunes
+rpcport: 41002
+sqlport: 41000
