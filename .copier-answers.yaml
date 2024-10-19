@@ -2,16 +2,16 @@
 _commit: 0.5.0
 _src_path: gh:radio-aktywne/template-database-cockroach
 accountname: radio-aktywne
-databasename: datatunes
+databasename: graphite
 description: Broadcast playlists data 💽
 docs: true
-docsurl: https://radio-aktywne.github.io/datatunes
-envprefix: DATATUNES
+docsurl: https://radio-aktywne.github.io/graphite
+envprefix: GRAPHITE
 httpport: 41001
-imagename: databases/datatunes
+imagename: databases/graphite
 registry: true
 releases: true
-reponame: datatunes
-repourl: https://github.com/radio-aktywne/datatunes
+reponame: graphite
+repourl: https://github.com/radio-aktywne/graphite
 rpcport: 41002
 sqlport: 41000

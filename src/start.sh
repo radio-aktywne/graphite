@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Configuration
-host="${DATATUNES__SERVER__HOST:-0.0.0.0}"
-sqlport="${DATATUNES__SERVER__PORTS__SQL:-41000}"
-httpport="${DATATUNES__SERVER__PORTS__HTTP:-41001}"
-rpcport="${DATATUNES__SERVER__PORTS__RPC:-41002}"
+host="${GRAPHITE__SERVER__HOST:-0.0.0.0}"
+sqlport="${GRAPHITE__SERVER__PORTS__SQL:-41000}"
+httpport="${GRAPHITE__SERVER__PORTS__HTTP:-41001}"
+rpcport="${GRAPHITE__SERVER__PORTS__RPC:-41002}"
 
 retries=30
 interval=1
