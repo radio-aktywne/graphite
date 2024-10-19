@@ -3,9 +3,9 @@ slug: /
 title: Index
 ---
 
-# datatunes database
+# datatunes
 
-Emission playlists database 💽
+Broadcast playlists data 💽
 
 ## 💡 About
 
