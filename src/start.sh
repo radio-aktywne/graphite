@@ -2,9 +2,9 @@
 
 # Configuration
 host="${GRAPHITE__SERVER__HOST:-0.0.0.0}"
-sqlport="${GRAPHITE__SERVER__PORTS__SQL:-41000}"
-httpport="${GRAPHITE__SERVER__PORTS__HTTP:-41001}"
-rpcport="${GRAPHITE__SERVER__PORTS__RPC:-41002}"
+sqlport="${GRAPHITE__SERVER__PORTS__SQL:-10220}"
+httpport="${GRAPHITE__SERVER__PORTS__HTTP:-10221}"
+rpcport="${GRAPHITE__SERVER__PORTS__RPC:-10222}"
 
 retries=30
 interval=1
