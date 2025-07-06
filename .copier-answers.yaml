@@ -1,17 +1,15 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.7.0
-_src_path: gh:radio-aktywne/template-database-cockroach
+_commit: 0.1.0
+_src_path: gh:radio-aktywne/template-database-postgres
 accountname: radio-aktywne
 databasename: graphite
 description: Broadcast playlists data 💽
 docs: true
 docsurl: https://radio-aktywne.github.io/graphite
 envprefix: GRAPHITE
-httpport: 10221
 imagename: databases/graphite
+port: 10220
 registry: true
 releases: true
 reponame: graphite
 repourl: https://github.com/radio-aktywne/graphite
-rpcport: 10222
-sqlport: 10220
