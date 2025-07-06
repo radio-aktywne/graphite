@@ -15,7 +15,7 @@ Broadcast playlists data 💽
 
 ## 💡 About
 
-`graphite` is a [`CockroachDB`](https://github.com/cockroachdb/cockroach) database
+`graphite` is a [`PostgreSQL`](https://www.postgresql.org) database
 that stores information about playlists.
 
 ## 📄 Further Reading
